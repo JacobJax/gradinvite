@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Jax Invite</title>
+   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+   <!-- <style>*{outline: red .7px solid;}</style> -->
+    <style>
+      @media (max-width: 640px){
+         .invite_card_left {
+            height: 60vh;
+         }
+      }
+    </style>
+</head>
+<body class="bg-gray-100">
+   <div class="h-screen grid place-items-center">
+      <div class="card grid md:grid-cols-7 bg-white shadow-sm rounded-sm max-w-3xl">
+         <div class="invite_card_left rounded-l-sm border p-6 py-14 col-span-7 md:col-span-2 flex flex-col items-center justify-between" style="background-color: rgba(255, 0, 0, 0.893);">
+            <div class="school_logo_container text-center">
+               <div class="school_image h-32 w-32">
+                  <img src="./anulogo.png" class="school_logo_image h-full w-full object-contain object-center" alt="School logo">
+               </div>
+               <div class="school-name"><h1 class="text-white font-bold text-sm border-b border-b-1"><span style="font-size: 17px;">A</span>FRICA <span style="font-size: 17px;">N</span>AZARENE</h1></div>
+               <div class="school_title">
+                  <p class="text-xs text-white" style="letter-spacing: .3rem;">UNIVERSITY</p>
+               </div>
+            </div> 
+            <div class="graduation_count text-center">
+               <h1 class="text-6xl text-white italic tracking-wide">27<sup class="text-sm" style="vertical-align: super; padding: 1px;">th</sup></h1>
+               <p class="text-3xl text-white border-b-2">Graduation</p>
+               <p class="text-lg text-white italic" style="line-height: 1.2rem;">ceremony 2024</p>
+            </div>
+         </div>
+         <div class="invite_card_right p-6 pt-14 col-span-7 md:col-span-5">
+            <div class="invite_details_header w-full">
+               <p class="text-xs">The Vice Chancellor</p>
+               <p class="text-xs">the Board of Trustees, the Council and the Senate of</p>
+               <h1 class="text-xl"><span>A</span>FRICA <span>N</span>AZARENE <span>U</span>NIVERSITY</h1>
+            </div>
+            <div class="card_peresence_request w-full">
+               <div class="request_text pb-16 border-b border-black w-full">
+                  <p class="text-xs">Request the pleasure of the company of</p>
+               </div>
+               <p class="text-xs py-2">To our Twenty Seventh Graduation Ceremony and the installation of our 3rd Chancellor, Dr. Rev. Eugenio Duarte, to be held on Friday, 26th July 2024 from 9.30 am at the Graduation Grounds, Ongata Rongai Campus</p>
+            </div>
+            <div class="keynote_speaker pb-2">
+               <h1 class="py-4 text-sm"><span>T</span>HE <span>K</span>EYNOTE <span>S</span>PEAKER</h1>
+               <P class="text-sm font-bold">Prof. Rodney Reed</P>
+               <p class="text-sm font-bold">Deputy Vive Chancellor - Academic & Student Affairs</p>
+            </div>
+            <div class="theme flex gap-2 text-xl py-3 font-bold border-y border-black italic">
+               <div class="theme_title">Theme:</div>
+               <div class="theme_text">
+                  <p>'Inspiring a Sense of Community,</p>
+                  <p class="pl-1">Resilience and Inovation'</p>
+               </div>
+            </div>
+            <div class="request_to_guests" style="font-size: .7rem;">
+               <p class="py-4 italic font-semibold" style="letter-spacing: .2rem;">Guests are requested to be seated by 9:30am</p>
+               <p><span>R.S.V.P</span> The Vice Chancellor, Africa Nazarene University</p>
+               <p>P.O. Box 53067 - 00200 Nairobi, vc@anu.ac.ke</p>
+            </div>
+         </div>
+      </div>
+   </div> 
+</body>
+</html>
